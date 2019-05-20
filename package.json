@@ -1,0 +1,37 @@
+{
+    "name": "cli-generate-files",
+    "version": "1.0.0",
+    "description": "Project CLI to generate files",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mavarona/cli-generate-files.git"
+    },
+    "keywords": [
+        "cli",
+        "generate",
+        "files",
+        "ts",
+        "rb",
+        "js",
+        "java",
+        "html",
+        "css"
+    ],
+    "author": "mavlmac",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mavarona/cli-generate-files/issues"
+    },
+    "homepage": "https://github.com/mavarona/cli-generate-files#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "figlet": "^1.2.1",
+        "inquirer": "^6.3.1",
+        "shelljs": "^0.8.3"
+    },
+    "bin": "./index.js"
+}
